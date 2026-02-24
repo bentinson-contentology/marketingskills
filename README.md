@@ -92,13 +92,13 @@ Use [npx skills](https://github.com/vercel-labs/skills) to install skills direct
 
 ```bash
 # Install all skills
-npx skills add coreyhaines31/marketingskills
+npx skills add bentinson-contentology/marketingskills
 
 # Install specific skills
-npx skills add coreyhaines31/marketingskills --skill page-cro copywriting
+npx skills add bentinson-contentology/marketingskills --skill page-cro copywriting
 
 # List available skills
-npx skills add coreyhaines31/marketingskills --list
+npx skills add bentinson-contentology/marketingskills --list
 ```
 
 This automatically installs to your `.claude/skills/` directory.
@@ -109,7 +109,7 @@ Install via Claude Code's built-in plugin system:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add coreyhaines31/marketingskills
+/plugin marketplace add bentinson-contentology/marketingskills
 
 # Install all marketing skills
 /plugin install marketing-skills
@@ -120,7 +120,7 @@ Install via Claude Code's built-in plugin system:
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/coreyhaines31/marketingskills.git
+git clone https://github.com/bentinson-contentology/marketingskills.git
 cp -r marketingskills/skills/* .claude/skills/
 ```
 
@@ -129,7 +129,7 @@ cp -r marketingskills/skills/* .claude/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/coreyhaines31/marketingskills.git .claude/marketingskills
+git submodule add https://github.com/bentinson-contentology/marketingskills.git .claude/marketingskills
 ```
 
 Then reference skills from `.claude/marketingskills/skills/`.
